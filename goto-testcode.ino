@@ -31,7 +31,7 @@ int SPEED = 720;
 
 void setup() {
     Serial.begin(9600);
-    
+    Serial.print('hello,there')
     buttonE.attachClick(clickE);
     buttonE.attachLongPressStart(longPressStartE);
     buttonE.attachLongPressStop(longPressStopE);
